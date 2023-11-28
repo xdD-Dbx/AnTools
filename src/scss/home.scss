@@ -1,0 +1,22 @@
+//====================================================================================================
+
+.home {
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .title {
+        margin-bottom: rem(30);
+        max-width: rem(600);
+        font-size: rem(50);
+        line-height: rem(70);
+    }
+
+    .description {
+        margin-bottom: rem(60);
+        max-width: rem(487);
+    }
+}
+
+//====================================================================================================
