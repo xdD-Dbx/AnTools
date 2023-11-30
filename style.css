@@ -119,6 +119,7 @@ h6 {
 }
 
 .btn {
+  display: inline-block;
   color: var(--btnTextColor);
   font-size: var(--fontSize);
   font-weight: 600;
@@ -228,7 +229,6 @@ h6 {
 .home .search-body input {
   margin-right: 1.5rem;
   flex: 1 1 auto;
-  max-width: 15rem;
   background: transparent;
 }
 
@@ -346,7 +346,7 @@ h6 {
     left: 0;
     transform: translateY(-100%);
 
-    backdrop-filter: blur(.2rem);
+    backdrop-filter: blur(.5rem);
     background: rgb(28, 35, 41, .85);
 
     transition-delay: .2s;
