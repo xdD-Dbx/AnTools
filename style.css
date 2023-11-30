@@ -2,7 +2,7 @@
 
 :root {
   --fontFamily: 'Poppins';
-  --mainFontSize: 1.8rem;
+  --fontSize: 1.6rem;
   --greyColor: rgba(255, 255, 255, 0.55);
   --whiteColor: rgba(255, 255, 255, 0.90);
 
@@ -39,7 +39,7 @@ body {
   color: var(--greyColor);
   line-height: 1;
   font-family: var(--fontFamily);
-  font-size: var(--mainFontSize);
+  font-size: var(--fontSize);
   background: var(--bgColor);
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -53,6 +53,8 @@ button,
 textarea {
   font-family: var(--fontFamily);
   font-size: inherit;
+  outline: none;
+  color: inherit;
 }
 
 button {
@@ -95,6 +97,10 @@ h6 {
 
 /*======================*/
 
+.lock {
+  overflow: hidden;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -102,7 +108,7 @@ h6 {
   min-height: 100%;
 }
 
-.main {
+.page {
   flex: 1 1 auto;
 }
 
@@ -114,13 +120,27 @@ h6 {
 
 .btn {
   color: var(--btnTextColor);
-  font-size: 1.6rem;
+  font-size: var(--fontSize);
   font-weight: 600;
   border-radius: var(--btnBorderRadius);
   background: var(--btnColor);
 }
 
-/*======================*/
+.title {
+  color: var(--whiteColor);
+  font-size: 4.8rem;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.description {
+  color: var(--greyColor);
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 3rem;
+}
+
+/*===================================*/
 
 .header {
   display: flex;
@@ -162,7 +182,7 @@ h6 {
 }
 
 .header .menu .menu__link {
-  font-size: 1.6rem;
+  font-size: var(--fontSize);
   font-weight: 500;
 }
 
@@ -176,6 +196,78 @@ h6 {
   padding: 1.2rem 2.8rem;
 }
 
+/*===================================*/
+
+.home__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home .title {
+  margin: 7.8rem 0 3rem 0;
+  max-width: 60rem;
+  font-size: 5rem;
+  line-height: 140%;
+}
+
+.home .description {
+  margin-bottom: 6rem;
+  max-width: 48.7rem;
+  font-weight: 400;
+}
+
+.home .search-body {
+  padding: .8rem 1.1rem; 
+  display: flex;
+  max-width: 49.8rem;
+  border-radius: 1.5rem;
+  border: .15rem solid rgba(255, 255, 255, 0.10);
+  background: #283036;
+}
+
+.home .search-body input {
+  margin-right: 1.5rem;
+  flex: 1 1 auto;
+  max-width: 15rem;
+  background: transparent;
+}
+
+.home .search-body .btn {
+  padding: 1.2rem 3.612rem;
+}
+
+/*===================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
+/*===================================*/
 /*===================================*/
 
 @media (max-width: 991.98px) {
@@ -202,28 +294,35 @@ h6 {
     -ms-user-select: none;
     user-select: none;
   }
+
   .hamRotate.active {
     transform: rotate(45deg);
   }
+
   .hamRotate180.active {
     transform: rotate(180deg);
   }
+
   .line {
-    fill:none;
+    fill: none;
     transition: stroke-dasharray .4s, stroke-dashoffset .4s;
     stroke: var(--greyColor);
-    stroke-width:5.5;
-    stroke-linecap:round;
+    stroke-width: 5.5;
+    stroke-linecap: round;
   }
+
   .ham1 .top {
     stroke-dasharray: 40 139;
   }
+
   .ham1 .bottom {
     stroke-dasharray: 40 180;
   }
+
   .ham1.active .top {
     stroke-dashoffset: -9.8rem;
   }
+
   .ham1.active .bottom {
     stroke-dashoffset: -13.8rem;
   }
