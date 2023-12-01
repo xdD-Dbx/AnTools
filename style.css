@@ -466,9 +466,66 @@ h6 {
     text-align: center;
   }
 
+  .header .menu .menu__item {
+    opacity: 0;
+    -webkit-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
+  }
+
+  .header .show .menu__body .item1 {
+    -webkit-animation: fadeIn 0.5s forwards .2s;
+            animation: fadeIn 0.5s forwards .2s;
+  }
+
+  .header .show .menu__body .item2 {
+    -webkit-animation: fadeIn 0.5s forwards .4s;
+            animation: fadeIn 0.5s forwards .4s;
+  }
+
+  .header .show .menu__body .item3 {
+    -webkit-animation: fadeIn 0.5s forwards 0.6s;
+            animation: fadeIn 0.5s forwards 0.6s;
+  }
+
+  .header .show .menu__body .item4 {
+    -webkit-animation: fadeIn 0.5s forwards 0.8s;
+            animation: fadeIn 0.5s forwards 0.8s;
+  }
+
+  @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
   .header .menu .menu__link {
     font-size: 2rem;
   }
+
+  .header .btn-box {
+    opacity: 0;
+  }
+
+  .header .show .menu__body .btn-box {
+    -webkit-animation: fadeIn 0.5s forwards 0.8s;
+            animation: fadeIn 0.5s forwards 0.8s;
+  }
+
 
   .header .btn-box .btn-empty {
     margin-inline: 3.85rem;
