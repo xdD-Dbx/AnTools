@@ -227,7 +227,18 @@ h6 {
 
 /*===================================*/
 
+.home {
+  padding-top: 7.8rem;
+}
+
 .home__container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -235,10 +246,11 @@ h6 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  z-index: 5;
 }
 
 .home .title {
-  margin: 7.8rem 0 3rem 0;
+  margin-bottom: 3rem;
   max-width: 60rem;
   font-size: 5rem;
   line-height: 140%;
@@ -251,14 +263,19 @@ h6 {
 }
 
 .home .search-body {
-  padding: .8rem 1.1rem; 
-  display: -webkit-box; 
-  display: -ms-flexbox; 
+  margin-bottom: 9rem;
+  padding: .8rem 1.1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   max-width: 49.8rem;
   border-radius: 1.5rem;
   border: .15rem solid rgba(255, 255, 255, 0.10);
   background: #283036;
+}
+
+.home .search-body img {
+  margin: 0 1.3rem 0 .7rem;
 }
 
 .home .search-body input {
@@ -269,6 +286,19 @@ h6 {
 
 .home .search-body .btn {
   padding: 1.2rem 3.612rem;
+}
+
+.home .social__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
+
+.home__media img {
+  position: absolute;
+  top: -6rem;
+  right: -8rem;
 }
 
 /*===================================*/
@@ -306,7 +336,9 @@ h6 {
 /*===================================*/
 
 @media (max-width: 991.98px) {
-  .header .menu .menu__list, .header .btn-box {
+
+  .header .menu .menu__list,
+  .header .btn-box {
     gap: 2.5rem;
   }
 }
@@ -398,13 +430,14 @@ h6 {
     height: 100%;
     top: 0;
     left: 0;
+    z-index: 15;
     -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);
 
-    -webkit-backdrop-filter: blur(.5rem);
+    -webkit-backdrop-filter: blur(3px);
 
-            backdrop-filter: blur(.5rem);
+            backdrop-filter: blur(3px);
     background: rgb(28, 35, 41, .85);
 
     -webkit-transition-delay: .2s;
@@ -439,5 +472,13 @@ h6 {
 
   .header .btn-box .btn-empty {
     margin-inline: 3.85rem;
+  }
+
+  .home .search-body {
+    margin-bottom: 7rem;
+  }
+
+  .home__media img {
+    opacity: .3;
   }
 }
