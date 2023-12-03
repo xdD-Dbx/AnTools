@@ -11,6 +11,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
+  
+
   // динамический адаптив
   function DynamicAdapt(type) {
     this.type = type;
