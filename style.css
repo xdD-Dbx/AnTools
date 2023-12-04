@@ -1,10 +1,3 @@
-/*
-* Prefixed by:
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
 
 :root {
@@ -159,6 +152,10 @@ h6 {
 /*===================================*/
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,6 +163,7 @@ h6 {
       -ms-flex-align: center;
           align-items: center;
   min-height: 10rem;
+  min-width: 100%;
 }
 
 .header__container {
@@ -235,6 +233,7 @@ h6 {
 /*===================================*/
 
 .home {
+  margin-top: 10rem;
   padding-top: 7.8rem;
 }
 
@@ -310,14 +309,126 @@ h6 {
 
 /*===================================*/
 
+.popular-tools {
+  padding-block: 20rem;
+}
 
+.popular-tools__top {
+  margin-bottom: 11rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  gap: 2.5rem;
+}
 
+.popular-tools__top .description {
+  max-width: 42.7rem;
+}
 
+.popular-tools .tools__row {
+  margin-bottom: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}
 
+.popular-tools .tools__item {
+  padding: 3.3rem;
+  min-width: 39.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 3rem;
+  border: 2px solid transparent;
+}
 
+.popular-tools .tools__haed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 3rem;
+}
 
+.popular-tools .tools__haed .program-name {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: normal;
 
+}
 
+.popular-tools .tools__haed .price {
+  color: rgba(255, 165, 55, 0.55);
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+.popular-tools .tools .text {
+  max-width: 32.6rem;
+  color: var(--greyColor);
+  line-height: 3rem;
+}
+
+.popular-tools .tools__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.popular-tools .tools__footer .functions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.5rem;
+}
+
+.popular-tools .tools__footer .btn-empty {
+  padding: .9rem 3.5rem;
+  color: var(--greyColor);
+  font-weight: 600;
+  line-height: normal;
+}
+
+.popular-tools__btn-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.popular-tools .btn--none-bg {
+  padding: 1.7rem 3.8rem;
+  color: #FF6E30;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: transparent;
+}
 
 
 
@@ -542,6 +653,10 @@ h6 {
     margin-inline: 3.85rem;
   }
 
+  .home {
+    margin-top: 7rem;
+  }
+
   .home .search-body {
     margin-bottom: 7rem;
   }
@@ -555,5 +670,22 @@ h6 {
             align-items: bottom;
     bottom: 0;
     opacity: .3;
+  }
+
+  .popular-tools {
+    padding-block: 10rem;
+  }
+
+  .popular-tools__top {
+    margin-bottom: 8rem;
+    gap: 2rem;
+  }
+
+  .popular-tools .tools__row {
+    margin-bottom: 0;
+  }
+
+  .popular-tools__btn-body {
+    margin-top: 7rem;
   }
 }
