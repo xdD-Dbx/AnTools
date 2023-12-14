@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
+
 :root {
     --fontFamily: 'Poppins';
     --fontSize: 1.6rem;
@@ -576,9 +578,15 @@ h6 {
 
 .swiper-slide {
     padding: 0 19rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .swiper-slide__media {
@@ -738,7 +746,7 @@ h6 {
 
 /*===================================*/
 
-@media (max-width: 1094.98px) {
+@media (max-width: 1279.98px) {
     .newcomer-tools__container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -749,14 +757,17 @@ h6 {
         align-items: center;
         gap: 8rem;
     }
+
     .newcomer-tools__content {
         text-align: center;
     }
+
     .newcomer-tools__list {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
     }
+
     .footer__container {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -767,6 +778,7 @@ h6 {
         align-items: center;
         gap: 3rem;
     }
+
     .footer__lg {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -781,12 +793,26 @@ h6 {
         text-align: center;
         max-width: 55rem;
     }
+
+    .swiper-slide {
+        padding: 0 12rem;
+    }
 }
 
 @media (max-width: 991.98px) {
+
     .header .menu .menu__list,
     .header .btn-box {
         gap: 2.5rem;
+    }
+
+    .swiper-slide {
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }
 
@@ -794,6 +820,7 @@ h6 {
     .header {
         min-height: 8rem;
     }
+
     .menu__icon {
         display: block;
         position: relative;
@@ -801,6 +828,7 @@ h6 {
         height: 5rem;
         width: 5rem;
     }
+
     .ham {
         cursor: pointer;
         -webkit-tap-highlight-color: transparent;
@@ -814,16 +842,19 @@ h6 {
         -ms-user-select: none;
         user-select: none;
     }
+
     .hamRotate.active {
         -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
         transform: rotate(45deg);
     }
+
     .hamRotate180.active {
         -webkit-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
         transform: rotate(180deg);
     }
+
     .line {
         fill: none;
         -webkit-transition: stroke-dasharray .4s, stroke-dashoffset .4s;
@@ -833,21 +864,27 @@ h6 {
         stroke-width: 5.5;
         stroke-linecap: round;
     }
+
     .ham1 .top {
         stroke-dasharray: 40 139;
     }
+
     .ham1 .bottom {
         stroke-dasharray: 40 180;
     }
+
     .ham1.active .top {
         stroke-dashoffset: -9.8rem;
     }
+
     .ham1.active .bottom {
         stroke-dashoffset: -13.8rem;
     }
+
     .header .menu {
         padding-inline: 0;
     }
+
     .header .menu__body {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -885,11 +922,13 @@ h6 {
         transition: transform .5s ease-in-out;
         transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
     }
+
     .header .show .menu__body {
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0);
     }
+
     .header .menu .menu__list {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -897,63 +936,79 @@ h6 {
         flex-direction: column;
         text-align: center;
     }
+
     .header .menu .menu__item {
         opacity: 0;
         -webkit-transition: opacity .5s;
         -o-transition: opacity .5s;
         transition: opacity .5s;
     }
+
     .header .show .menu__body .item1 {
         -webkit-animation: fadeIn 0.5s forwards .2s;
         animation: fadeIn 0.5s forwards .2s;
     }
+
     .header .show .menu__body .item2 {
         -webkit-animation: fadeIn 0.5s forwards .4s;
         animation: fadeIn 0.5s forwards .4s;
     }
+
     .header .show .menu__body .item3 {
         -webkit-animation: fadeIn 0.5s forwards 0.6s;
         animation: fadeIn 0.5s forwards 0.6s;
     }
+
     .header .show .menu__body .item4 {
         -webkit-animation: fadeIn 0.5s forwards 0.8s;
         animation: fadeIn 0.5s forwards 0.8s;
     }
+
     @-webkit-keyframes fadeIn {
         from {
             opacity: 0;
         }
+
         to {
             opacity: 1;
         }
     }
+
     @keyframes fadeIn {
         from {
             opacity: 0;
         }
+
         to {
             opacity: 1;
         }
     }
+
     .header .menu .menu__link {
         font-size: 2rem;
     }
+
     .header .btn-box {
         opacity: 0;
     }
+
     .header .show .menu__body .btn-box {
         -webkit-animation: fadeIn 0.5s forwards 0.8s;
         animation: fadeIn 0.5s forwards 0.8s;
     }
+
     .header .btn-box .btn-empty {
         margin-inline: 3.85rem;
     }
+
     .home {
         margin-top: 7rem;
     }
+
     .home .search-body {
         margin-bottom: 7rem;
     }
+
     .home__media {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -964,28 +1019,40 @@ h6 {
         bottom: 0;
         opacity: .3;
     }
+
     .popular-tools {
         padding: 10rem 0 5rem 0;
     }
+
     .popular-tools__top {
         margin-bottom: 8rem;
         gap: 2rem;
     }
+
     .popular-tools .tools__row {
         margin-bottom: 0;
     }
+
     .popular-tools__btn-body {
         margin-top: 7rem;
     }
+
     .brands {
         padding: 5rem 1.5rem;
     }
+
     .newcomer-tools {
         padding: 5rem 0;
     }
+
+    .swiper-slide {
+        padding: 0 7rem;
+    }
+
     footer {
         padding: 3rem 0;
     }
+
     .footer__inner {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -994,10 +1061,29 @@ h6 {
         text-align: center;
         gap: 4rem;
     }
+
     .footer__inner .box-title {
         margin-bottom: 1rem;
     }
+
     .footer__inner .box__list {
         gap: .5rem;
+    }
+}
+
+@media (max-width: 480.98px) {
+    .swiper-slide {
+        padding: 0 4rem;
+        gap: 6rem;
+    }
+
+    .swiper-slide__text {
+        margin-bottom: 6rem;
+        text-align: center;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
     }
 }
