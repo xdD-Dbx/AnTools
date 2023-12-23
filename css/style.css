@@ -843,7 +843,11 @@ h6 {
   }
 
   .contact {
-    padding: 10rem 0 15rem 0;
+    padding: 5rem 0 10rem 0;
+  }
+
+  .contact__inner .description {
+    margin-bottom: 5rem;
   }
 }
 
@@ -1076,6 +1080,10 @@ h6 {
     padding: 5rem 0;
   }
 
+  .newcomer-tools__list .tools__item {
+    max-width: 36rem;
+  }
+
   .swiper-page {
     padding: 5rem 0;
   }
@@ -1138,8 +1146,8 @@ h6 {
 
 @media (max-width: 480.98px) {
   .swiper-slide {
-    padding: 0 4rem;
-    gap: 6rem;
+    padding: 0 2rem;
+    gap: 8rem;
   }
 
   .swiper-button-prev,
