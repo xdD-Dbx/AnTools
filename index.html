@@ -8,7 +8,7 @@
   <title>Antools</title>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -80,7 +80,7 @@
               world</div>
           </div>
           <div class="tools">
-            <ul class="tools__row">
+            <ul class="tools__row tools__row--m">
               <li class="tools__item">
                 <div class="tools__haed">
                   <img src="img/programs/figma.svg" alt="figma">
@@ -134,7 +134,7 @@
               </li>
             </ul>
             <ul class="tools__row">
-              <li class="tools__item">
+              <li class="tools__item" data-da=".tools__row--m, 992">
                 <div class="tools__haed">
                   <img src="img/programs/notion.svg" alt="notion">
                   <div class="content">
@@ -151,7 +151,7 @@
                   <a href="#" class="btn-empty">Visit</a>
                 </div>
               </li>
-              <li class="tools__item">
+              <li class="tools__item" data-da=".tools__row--m, 992">
                 <div class="tools__haed">
                   <img src="img/programs/slack.svg" alt="slack">
                   <div class="content">
@@ -168,7 +168,7 @@
                   <a href="#" class="btn-empty">Visit</a>
                 </div>
               </li>
-              <li class="tools__item">
+              <li class="tools__item" data-da=".tools__row--m, 992">
                 <div class="tools__haed">
                   <img src="img/programs/invision.svg" alt="invision">
                   <div class="content">
@@ -285,14 +285,12 @@
       </section>
       <section class="page__swiper swiper-page">
         <div class="swiper-page__container">
-          <!-- Slider main container -->
           <div class="swiper">
-            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-              <!-- Slides -->
               <div class="swiper-slide">
                 <div class="swiper-slide__media">
-                  <img src="img/slider-men.png" alt="person">
+                  <img class="person-bg" src="img/group.png" alt="">
+                  <img class="person" src="img/person.png" alt="person">
                   <div class="media__card card-media">
                     <div class="card-media__name">Ronald Richards</div>
                     <div class="card-media__profession">Product Manager</div>
@@ -324,7 +322,8 @@
               </div>
               <div class="swiper-slide">
                 <div class="swiper-slide__media">
-                  <img src="img/slider-men.png" alt="person">
+                  <img class="person-bg" src="img/group.png" alt="">
+                  <img class="person" src="img/person.png" alt="person">
                   <div class="media__card card-media">
                     <div class="card-media__name">Ronald Richards</div>
                     <div class="card-media__profession">Product Manager</div>
@@ -356,7 +355,8 @@
               </div>
               <div class="swiper-slide">
                 <div class="swiper-slide__media">
-                  <img src="img/slider-men.png" alt="person">
+                  <img class="person-bg" src="img/group.png" alt="">
+                  <img class="person" src="img/person.png" alt="person">
                   <div class="media__card card-media">
                     <div class="card-media__name">Ronald Richards</div>
                     <div class="card-media__profession">Product Manager</div>
@@ -387,10 +387,7 @@
                 </div>
               </div>
             </div>
-            <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
           </div>
@@ -402,7 +399,7 @@
             <h2 class="title">Become a contributor?</h2>
             <div class="description">Join us and get tips & tricks to become a great Designer and Developer
             </div>
-            <div class="search-body">
+            <div class="email-body">
               <img src="img/icons/search.svg" alt="search">
               <input type="text" placeholder="Enter your email...">
               <button type="submit" class="btn">Join Us</button>
