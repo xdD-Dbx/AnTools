@@ -22,10 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
   function menuInit() {
     const menuIcon = document.querySelector('.menu__icon');
     const menu = document.querySelector('.menu');
+    const html = document.querySelector('html');
 
     menuIcon.addEventListener('click', () => {
       menu.classList.toggle('show');
       menuIcon.classList.toggle('active');
+      html.classList.toggle('lock');
     });
   }
 
