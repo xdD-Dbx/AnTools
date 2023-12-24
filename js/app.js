@@ -1,5 +1,40 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  // меню бургер
+  function menuInit() {
+    const menuIcon = document.querySelector('.menu__icon');
+    const menu = document.querySelector('.menu');
+    const html = document.querySelector('html');
+
+    menuIcon.addEventListener('click', () => {
+      menu.classList.toggle('show');
+      menuIcon.classList.toggle('active');
+      html.classList.toggle('lock');
+    });
+  }
+
+  function anim() {
+    function onEntry(entry) {
+      entry.forEach(element => {
+        if (element.isIntersecting) {
+          element.target.classList.add('element-show');
+        } else {
+          element.target.classList.remove('element-show'); // Удаляем класс, если элемент больше не виден
+        }
+      });
+    }
+
+    let options = {
+      threshold: [0.5]
+    };
+    let observer = new IntersectionObserver(onEntry, options);
+    let elements = document.querySelectorAll('.element-animation');
+
+    for (let el of elements) {
+      observer.observe(el);
+    }
+  }
+
   const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'horizontal',
@@ -17,19 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
       prevEl: '.swiper-button-prev',
     },
   });
-
-  // меню бургер
-  function menuInit() {
-    const menuIcon = document.querySelector('.menu__icon');
-    const menu = document.querySelector('.menu');
-    const html = document.querySelector('html');
-
-    menuIcon.addEventListener('click', () => {
-      menu.classList.toggle('show');
-      menuIcon.classList.toggle('active');
-      html.classList.toggle('lock');
-    });
-  }
 
   // динамический адаптив
   function DynamicAdapt(type) {
@@ -175,5 +197,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const da = new DynamicAdapt("max");
 
   da.init();
+  anim();
   menuInit();
 });
