@@ -18,8 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
       entry.forEach(element => {
         if (element.isIntersecting) {
           element.target.classList.add('element-show');
-        } else {
-          element.target.classList.remove('element-show'); // Удаляем класс, если элемент больше не виден
         }
       });
     }

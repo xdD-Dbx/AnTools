@@ -298,14 +298,14 @@ h6 {
   margin-bottom: 3rem;
   max-width: 60rem;
   font-size: 5rem;
-  line-height: 140%;
+  line-height: 120%;
 }
 
 .home .title.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .home .title.element-animation.element-show {
@@ -313,14 +313,14 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .home .description {
@@ -331,9 +331,9 @@ h6 {
 
 .home .description.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .home .description.element-animation.element-show {
@@ -341,11 +341,11 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -357,9 +357,9 @@ h6 {
 
 .home .search-body.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .home .search-body.element-animation.element-show {
@@ -367,11 +367,11 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1.5s;
        -o-transition-delay: 1.5s;
           transition-delay: 1.5s;
@@ -397,11 +397,11 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 2s;
        -o-transition-delay: 2s;
           transition-delay: 2s;
@@ -415,9 +415,9 @@ h6 {
 
 .home .home__media.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .home .home__media.element-animation.element-show {
@@ -425,11 +425,11 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 2s;
        -o-transition-delay: 2s;
           transition-delay: 2s;
@@ -458,9 +458,9 @@ h6 {
 
 .popular-tools__top .title.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .popular-tools__top .title.element-animation.element-show {
@@ -468,14 +468,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .popular-tools__top .description {
@@ -484,9 +484,9 @@ h6 {
 
 .popular-tools__top .description.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(+40%);
-      -ms-transform: translateY(+40%);
-          transform: translateY(+40%);
+  -webkit-transform: translateY(+20%);
+      -ms-transform: translateY(+20%);
+          transform: translateY(+20%);
 }
 
 .popular-tools__top .description.element-animation.element-show {
@@ -494,14 +494,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .tools__row {
@@ -519,9 +519,9 @@ h6 {
 
 .popular-tools .tools-row1.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .popular-tools .tools-row1.element-animation.element-show {
@@ -529,21 +529,21 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .popular-tools .tools-row2.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(+40%);
-      -ms-transform: translateX(+40%);
-          transform: translateX(+40%);
+  -webkit-transform: translateY(+20%);
+      -ms-transform: translateY(+20%);
+          transform: translateY(+20%);
 }
 
 .popular-tools .tools-row2.element-animation.element-show {
@@ -551,14 +551,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .tools__item {
@@ -661,9 +661,9 @@ h6 {
 
 .popular-tools__btn-body.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(+40%);
-      -ms-transform: translateY(+40%);
-          transform: translateY(+40%);
+  -webkit-transform: translateY(+20%);
+      -ms-transform: translateY(+20%);
+          transform: translateY(+20%);
 }
 
 .popular-tools__btn-body.element-animation.element-show {
@@ -671,14 +671,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .popular-tools .btn--none-bg {
@@ -714,9 +714,9 @@ h6 {
 
 .brands.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(+20%);
+      -ms-transform: translateY(+20%);
+          transform: translateY(+20%);
 }
 
 .brands.element-animation.element-show {
@@ -724,14 +724,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .brands__inner {
@@ -784,9 +784,9 @@ h6 {
 
 .newcomer-tools .title.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .newcomer-tools .title.element-animation.element-show {
@@ -794,14 +794,14 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .newcomer-tools__content .description {
@@ -810,9 +810,9 @@ h6 {
 
 .newcomer-tools .description.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .newcomer-tools .description.element-animation.element-show {
@@ -820,11 +820,11 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -836,9 +836,9 @@ h6 {
 
 .newcomer-tools__content .btn.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .newcomer-tools__content .btn.element-animation.element-show {
@@ -846,14 +846,14 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: 1.3s;
+       -o-transition-delay: 1.3s;
+          transition-delay: 1.3s;
 }
 
 .newcomer-tools__list {
@@ -877,9 +877,9 @@ h6 {
 
 .newcomer-tools__list .tools-item1.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item1.element-animation.element-show {
@@ -887,11 +887,11 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1.5s;
        -o-transition-delay: 1.5s;
           transition-delay: 1.5s;
@@ -899,9 +899,9 @@ h6 {
 
 .newcomer-tools__list .tools-item2.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item2.element-animation.element-show {
@@ -909,21 +909,21 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: 2s;
-       -o-transition-delay: 2s;
-          transition-delay: 2s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: 1.7s;
+       -o-transition-delay: 1.7s;
+          transition-delay: 1.7s;
 }
 
 .newcomer-tools__list .tools-item3.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item3.element-animation.element-show {
@@ -931,21 +931,21 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: 2.5s;
-       -o-transition-delay: 2.5s;
-          transition-delay: 2.5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: 1.9s;
+       -o-transition-delay: 1.9s;
+          transition-delay: 1.9s;
 }
 
 .newcomer-tools__list .tools-item4.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(-40%);
-      -ms-transform: translateY(-40%);
-          transform: translateY(-40%);
+  -webkit-transform: translateY(-20%);
+      -ms-transform: translateY(-20%);
+          transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item4.element-animation.element-show {
@@ -953,14 +953,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: 3s;
-       -o-transition-delay: 3s;
-          transition-delay: 3s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: 2.1s;
+       -o-transition-delay: 2.1s;
+          transition-delay: 2.1s;
 }
 
 .newcomer-tools__list .tools__item .text {
@@ -985,9 +985,9 @@ h6 {
 
 .swiper-page .swiper .swiper-button-prev.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(-40%);
-      -ms-transform: translateX(-40%);
-          transform: translateX(-40%);
+  -webkit-transform: translateX(-20%);
+      -ms-transform: translateX(-20%);
+          transform: translateX(-20%);
 }
 
 .swiper-page .swiper .swiper-button-prev.element-animation.element-show {
@@ -995,11 +995,11 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -1007,9 +1007,9 @@ h6 {
 
 .swiper-page .swiper .swiper-button-next.element-animation {
   opacity: 0;
-  -webkit-transform: translateX(+40%);
-      -ms-transform: translateX(+40%);
-          transform: translateX(+40%);
+  -webkit-transform: translateX(+20%);
+      -ms-transform: translateX(+20%);
+          transform: translateX(+20%);
 }
 
 .swiper-page .swiper .swiper-button-next.element-animation.element-show {
@@ -1017,11 +1017,11 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -1029,9 +1029,9 @@ h6 {
 
 .swiper-page .swiper .swiper-pagination.element-animation {
   opacity: 0;
-  -webkit-transform: translateY(+40%);
-      -ms-transform: translateY(+40%);
-          transform: translateY(+40%);
+  -webkit-transform: translateY(+20%);
+      -ms-transform: translateY(+20%);
+          transform: translateY(+20%);
 }
 
 .swiper-page .swiper .swiper-pagination.element-animation.element-show {
@@ -1039,11 +1039,11 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -1101,14 +1101,14 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .swiper-slide__media .person-bg {
@@ -1150,11 +1150,11 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -1199,14 +1199,14 @@ h6 {
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .swiper-slide__content img {
@@ -1218,7 +1218,7 @@ h6 {
 .swiper-slide__text {
   max-width: 39.3rem;
   color: rgba(255, 255, 255, 0.78);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   line-height: 3rem;
   letter-spacing: 0.21px;
 }
@@ -1259,14 +1259,14 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-  -webkit-transition-delay: .5s;
-       -o-transition-delay: .5s;
-          transition-delay: .5s;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -webkit-transition-delay: .3s;
+       -o-transition-delay: .3s;
+          transition-delay: .3s;
 }
 
 .contact__inner .description {
@@ -1286,11 +1286,11 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -1313,11 +1313,11 @@ h6 {
   -webkit-transform: translateY(0);
       -ms-transform: translateY(0);
           transform: translateY(0);
-  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-  transition: opacity .5s ease, -webkit-transform .5s ease;
-  -o-transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease;
-  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
+  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+  transition: opacity .3s ease, -webkit-transform .3s ease;
+  -o-transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease;
+  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
        -o-transition-delay: 1s;
           transition-delay: 1s;
@@ -1508,7 +1508,7 @@ h6 {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .header {
     min-height: 8rem;
   }
@@ -1695,19 +1695,20 @@ h6 {
 
   .home {
     margin-top: 7rem;
+    overflow: hidden;
   }
 
   .home .search-body {
     margin-bottom: 5rem;
   }
 
-  .home__media {
+  .home .home__media.element-animation.element-show {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: bottom;
-    -ms-flex-align: bottom;
-    align-items: bottom;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     bottom: 0;
     opacity: .3;
   }
@@ -1739,14 +1740,14 @@ h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-    transition: opacity .5s ease, -webkit-transform .5s ease;
-    -o-transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-    -webkit-transition-delay: .5s;
-         -o-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    -o-transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition-delay: .3s;
+         -o-transition-delay: .3s;
+            transition-delay: .3s;
   }
 
   .popular-tools .tools-item2.element-animation {
@@ -1761,14 +1762,14 @@ h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-    transition: opacity .5s ease, -webkit-transform .5s ease;
-    -o-transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-    -webkit-transition-delay: .5s;
-         -o-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    -o-transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition-delay: .3s;
+         -o-transition-delay: .3s;
+            transition-delay: .3s;
   }
 
   .popular-tools .tools-item3.element-animation {
@@ -1783,14 +1784,14 @@ h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-    transition: opacity .5s ease, -webkit-transform .5s ease;
-    -o-transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-    -webkit-transition-delay: .5s;
-         -o-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    -o-transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition-delay: .3s;
+         -o-transition-delay: .3s;
+            transition-delay: .3s;
   }
 
   .popular-tools .tools-item4.element-animation {
@@ -1805,14 +1806,14 @@ h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-    transition: opacity .5s ease, -webkit-transform .5s ease;
-    -o-transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-    -webkit-transition-delay: .5s;
-         -o-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    -o-transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition-delay: .3s;
+         -o-transition-delay: .3s;
+            transition-delay: .3s;
   }
 
   .popular-tools .tools-item5.element-animation {
@@ -1827,14 +1828,14 @@ h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-    transition: opacity .5s ease, -webkit-transform .5s ease;
-    -o-transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-    -webkit-transition-delay: .5s;
-         -o-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    -o-transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition-delay: .3s;
+         -o-transition-delay: .3s;
+            transition-delay: .3s;
   }
 
   .popular-tools .tools-item6.element-animation {
@@ -1849,14 +1850,14 @@ h6 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
             transform: translateY(0);
-    -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
-    transition: opacity .5s ease, -webkit-transform .5s ease;
-    -o-transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease;
-    transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease;
-    -webkit-transition-delay: .5s;
-         -o-transition-delay: .5s;
-            transition-delay: .5s;
+    -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
+    transition: opacity .3s ease, -webkit-transform .3s ease;
+    -o-transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease;
+    transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+    -webkit-transition-delay: .3s;
+         -o-transition-delay: .3s;
+            transition-delay: .3s;
   }
 
   .brands {
@@ -1874,6 +1875,27 @@ h6 {
   .newcomer-tools__list .tools__item {
     max-width: 32rem;
   }
+
+  .newcomer-tools__list .tools-item1.element-animation.element-show {
+    -webkit-transition-delay: .5s;
+           -o-transition-delay: .5s;
+              transition-delay: .5s;
+    }
+    .newcomer-tools__list .tools-item2.element-animation.element-show {
+    -webkit-transition-delay: .5s;
+           -o-transition-delay: .5s;
+              transition-delay: .5s;
+    }
+    .newcomer-tools__list .tools-item3.element-animation.element-show {
+    -webkit-transition-delay: .5s;
+           -o-transition-delay: .5s;
+              transition-delay: .5s;
+    }
+    .newcomer-tools__list .tools-item4.element-animation.element-show {
+    -webkit-transition-delay: .5s;
+           -o-transition-delay: .5s;
+              transition-delay: .5s;
+    }
 
   .swiper-page {
     padding: 0 0 5rem 0;
@@ -1922,6 +1944,9 @@ h6 {
 }
 
 @media (max-width: 480.98px) {
+  .home {
+    padding-top: 7rem;
+  }
 
   .search-body,
   .email-body {
