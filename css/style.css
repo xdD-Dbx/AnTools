@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap');
 
 :root {
@@ -304,23 +305,23 @@ h6 {
 .home .title.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .home .title.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .home .description {
@@ -332,23 +333,23 @@ h6 {
 .home .description.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .home .description.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .home .search-body {
@@ -358,23 +359,23 @@ h6 {
 .home .search-body.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .home .search-body.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1.5s;
-       -o-transition-delay: 1.5s;
-          transition-delay: 1.5s;
+  -o-transition-delay: 1.5s;
+  transition-delay: 1.5s;
 }
 
 .home .social__list {
@@ -388,23 +389,23 @@ h6 {
 .home .social__list.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+60%);
-      -ms-transform: translateY(+60%);
-          transform: translateY(+60%);
+  -ms-transform: translateY(+60%);
+  transform: translateY(+60%);
 }
 
 .home .social__list.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 2s;
-       -o-transition-delay: 2s;
-          transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
 }
 
 .home__media {
@@ -416,23 +417,23 @@ h6 {
 .home .home__media.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .home .home__media.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 2s;
-       -o-transition-delay: 2s;
-          transition-delay: 2s;
+  -o-transition-delay: 2s;
+  transition-delay: 2s;
 }
 
 /*===================================*/
@@ -459,23 +460,23 @@ h6 {
 .popular-tools__top .title.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .popular-tools__top .title.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .popular-tools__top .description {
@@ -485,23 +486,23 @@ h6 {
 .popular-tools__top .description.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .popular-tools__top .description.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .tools__row {
@@ -520,45 +521,45 @@ h6 {
 .popular-tools .tools-row1.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .popular-tools .tools-row1.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .popular-tools .tools-row2.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .popular-tools .tools-row2.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .tools__item {
@@ -574,12 +575,11 @@ h6 {
   gap: 3rem;
   opacity: .8;
   border-radius: 15px;
-  border: 2px solid transparent;
-  -webkit-transition: opacity .3s ease, background .3s ease, -webkit-backdrop-filter .3s ease;
-  transition: opacity .3s ease, background .3s ease, -webkit-backdrop-filter .3s ease;
-  -o-transition: opacity .3s ease, background .3s ease, backdrop-filter .3s ease;
-  transition: opacity .3s ease, background .3s ease, backdrop-filter .3s ease;
-  transition: opacity .3s ease, background .3s ease, backdrop-filter .3s ease, -webkit-backdrop-filter .3s ease;
+  -webkit-transition: opacity .4s, background .4s, -webkit-backdrop-filter .4s;
+  transition: opacity .4s, background .4s, -webkit-backdrop-filter .4s;
+  -o-transition: opacity .4s, background .4s, backdrop-filter .4s;
+  transition: opacity .4s, background .4s, backdrop-filter .4s;
+  transition: opacity .4s, background .4s, backdrop-filter .4s, -webkit-backdrop-filter .4s;
 }
 
 .tools__item:hover {
@@ -604,7 +604,7 @@ h6 {
 }
 
 .tools__haed .price {
-  color: rgba(255, 165, 55, 0.9);
+  color: #FFA537;
   font-size: 1.8rem;
   line-height: normal;
 }
@@ -634,18 +634,57 @@ h6 {
   gap: 2.5rem;
 }
 
+.favorite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 8px;
+  -webkit-transition: background .3s, -webkit-box-shadow .3s;
+  transition: background .3s, -webkit-box-shadow .3s;
+  -o-transition: background .3s, box-shadow .3s;
+  transition: background .3s, box-shadow .3s;
+  transition: background .3s, box-shadow .3s, -webkit-box-shadow .3s;
+}
+
+.favorite:hover {
+  background: #283036;
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+          box-shadow: 0px 5px 10px -3px rgba(18, 18, 18, 0.15);
+}
+
+.fav {
+  fill: #fff;
+  fill-opacity: .38;
+  -webkit-transition: fill .3s ease, fill-opacity .3s ease;
+  -o-transition: fill .3s ease, fill-opacity .3s ease;
+  transition: fill .3s ease, fill-opacity .3s ease;
+}
+
+.favorite:hover .fav {
+  fill: #FD3B41;
+  fill-opacity: 1;
+}
+
 .tools__footer .btn-empty {
   padding: .9rem 3.5rem;
   color: var(--greyColor);
   font-weight: 600;
   line-height: normal;
   border-radius: 8px;
-  -webkit-transition: color .3s ease, background .3s ease;
-  -o-transition: color .3s ease, background .3s ease;
-  transition: color .3s ease, background .3s ease;
+  -webkit-transition: color .4s, background .4s;
+  -o-transition: color .4s, background .4s;
+  transition: color .4s, background .4s;
 }
 
-.tools__footer .btn-empty:hover {
+.tools__item:hover .btn-empty {
   color: var(--btnTextColor);
   background: #eb510f;
 }
@@ -662,23 +701,23 @@ h6 {
 .popular-tools__btn-body.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .popular-tools__btn-body.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .popular-tools .btn--none-bg {
@@ -690,9 +729,9 @@ h6 {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.10);
   background: transparent;
-  -webkit-transition: background .3s ease, color .3s ease;
-  -o-transition: background .3s ease, color .3s ease;
-  transition: background .3s ease, color .3s ease;
+  -webkit-transition: background .4s, color .4s;
+  -o-transition: background .4s, color .4s;
+  transition: background .4s, color .4s;
 }
 
 .popular-tools .btn--none-bg:hover {
@@ -715,23 +754,23 @@ h6 {
 .brands.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .brands.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .brands__inner {
@@ -785,23 +824,23 @@ h6 {
 .newcomer-tools .title.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .newcomer-tools .title.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .newcomer-tools__content .description {
@@ -811,23 +850,23 @@ h6 {
 .newcomer-tools .description.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .newcomer-tools .description.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .newcomer-tools__content .btn {
@@ -837,23 +876,26 @@ h6 {
 .newcomer-tools__content .btn.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .newcomer-tools__content .btn.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  -webkit-transition: opacity .4s, background .4s, -webkit-transform .4s;
+  transition: opacity .4s, background .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s, background .4s;
+  transition: opacity .4s, transform .4s, background .4s;
+  transition: opacity .4s, transform .4s, background .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1.3s;
-       -o-transition-delay: 1.3s;
-          transition-delay: 1.3s;
+  -o-transition-delay: 1.3s;
+  transition-delay: 1.3s;
 }
 
 .newcomer-tools__list {
@@ -873,94 +915,105 @@ h6 {
   padding: 2.2rem;
   max-width: 28.8rem;
   min-width: 0;
+  opacity: .8;
 }
 
 .newcomer-tools__list .tools-item1.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item1.element-animation.element-show {
-  opacity: 1;
+  opacity: .8;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1.5s;
-       -o-transition-delay: 1.5s;
-          transition-delay: 1.5s;
+  -o-transition-delay: 1.5s;
+  transition-delay: 1.5s;
 }
 
 .newcomer-tools__list .tools-item2.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item2.element-animation.element-show {
-  opacity: 1;
+  opacity: .8;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1.7s;
-       -o-transition-delay: 1.7s;
-          transition-delay: 1.7s;
+  -o-transition-delay: 1.7s;
+  transition-delay: 1.7s;
 }
 
 .newcomer-tools__list .tools-item3.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item3.element-animation.element-show {
-  opacity: 1;
+  opacity: .8;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1.9s;
-       -o-transition-delay: 1.9s;
-          transition-delay: 1.9s;
+  -o-transition-delay: 1.9s;
+  transition-delay: 1.9s;
 }
 
 .newcomer-tools__list .tools-item4.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .newcomer-tools__list .tools-item4.element-animation.element-show {
-  opacity: 1;
+  opacity: .8;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 2.1s;
-       -o-transition-delay: 2.1s;
-          transition-delay: 2.1s;
+  -o-transition-delay: 2.1s;
+  transition-delay: 2.1s;
+}
+
+.newcomer-tools__list .tools-item1.element-animation.element-show:hover,
+.newcomer-tools__list .tools-item2.element-animation.element-show:hover,
+.newcomer-tools__list .tools-item3.element-animation.element-show:hover,
+.newcomer-tools__list .tools-item4.element-animation.element-show:hover {
+  -webkit-transition: opacity .2s;
+  -o-transition: opacity .2s;
+  transition: opacity .2s;
+  opacity: 1;
 }
 
 .newcomer-tools__list .tools__item .text {
@@ -986,67 +1039,67 @@ h6 {
 .swiper-page .swiper .swiper-button-prev.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .swiper-page .swiper .swiper-button-prev.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .swiper-page .swiper .swiper-button-next.element-animation {
   opacity: 0;
   -webkit-transform: translateX(+20%);
-      -ms-transform: translateX(+20%);
-          transform: translateX(+20%);
+  -ms-transform: translateX(+20%);
+  transform: translateX(+20%);
 }
 
 .swiper-page .swiper .swiper-button-next.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .swiper-page .swiper .swiper-pagination.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .swiper-page .swiper .swiper-pagination.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .swiper-pagination-bullet {
@@ -1092,23 +1145,23 @@ h6 {
 .swiper-slide__media.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .swiper-slide__media.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .swiper-slide__media .person-bg {
@@ -1141,23 +1194,23 @@ h6 {
 .swiper-slide .card-media.element-animation {
   opacity: 0;
   -webkit-transform: translateX(-20%);
-      -ms-transform: translateX(-20%);
-          transform: translateX(-20%);
+  -ms-transform: translateX(-20%);
+  transform: translateX(-20%);
 }
 
 .swiper-slide .card-media.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .swiper-slide .card-media svg {
@@ -1190,23 +1243,23 @@ h6 {
 .swiper-slide__content.element-animation {
   opacity: 0;
   -webkit-transform: translateX(+20%);
-      -ms-transform: translateX(+20%);
-          transform: translateX(+20%);
+  -ms-transform: translateX(+20%);
+  transform: translateX(+20%);
 }
 
 .swiper-slide__content.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .swiper-slide__content img {
@@ -1250,23 +1303,23 @@ h6 {
 .contact__inner .title.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .contact__inner .title.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
   -webkit-transition-delay: .3s;
-       -o-transition-delay: .3s;
-          transition-delay: .3s;
+  -o-transition-delay: .3s;
+  transition-delay: .3s;
 }
 
 .contact__inner .description {
@@ -1277,23 +1330,24 @@ h6 {
 .contact__inner .description.element-animation {
   opacity: 0;
   -webkit-transform: translateY(-20%);
-      -ms-transform: translateY(-20%);
-          transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
 }
 
 .contact__inner .description.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
-  transition: opacity .3s ease, -webkit-transform .3s ease;
-  -o-transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease;
-  transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: opacity .4s, -webkit-transform .4s;
+  transition: opacity .4s, -webkit-transform .4s;
+  -o-transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .4s;
+  transition: opacity .4s, transform .4s, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .contact__inner .email-body {
@@ -1304,23 +1358,23 @@ h6 {
 .contact__inner .email-body.element-animation {
   opacity: 0;
   -webkit-transform: translateY(+20%);
-      -ms-transform: translateY(+20%);
-          transform: translateY(+20%);
+  -ms-transform: translateY(+20%);
+  transform: translateY(+20%);
 }
 
 .contact__inner .email-body.element-animation.element-show {
   opacity: 1;
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-          transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
   -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
   transition: opacity .3s ease, -webkit-transform .3s ease;
   -o-transition: opacity .3s ease, transform .3s ease;
   transition: opacity .3s ease, transform .3s ease;
   transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
   -webkit-transition-delay: 1s;
-       -o-transition-delay: 1s;
-          transition-delay: 1s;
+  -o-transition-delay: 1s;
+  transition-delay: 1s;
 }
 
 .contact__inner .email-body .btn {
@@ -1707,8 +1761,8 @@ h6 {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     bottom: 0;
     opacity: .3;
   }
@@ -1724,140 +1778,140 @@ h6 {
   .popular-tools .tools-row1.element-animation {
     opacity: 1;
     -webkit-transform: translateX(0);
-        -ms-transform: translateX(0);
-            transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
   }
 
   .popular-tools .tools-item1.element-animation {
     opacity: 0;
     -webkit-transform: translateY(+30%);
-        -ms-transform: translateY(+30%);
-            transform: translateY(+30%);
+    -ms-transform: translateY(+30%);
+    transform: translateY(+30%);
   }
 
   .popular-tools .tools-item1.element-animation.element-show {
     opacity: 1;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
     transition: opacity .3s ease, -webkit-transform .3s ease;
     -o-transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
     -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
   }
 
   .popular-tools .tools-item2.element-animation {
     opacity: 0;
     -webkit-transform: translateY(+30%);
-        -ms-transform: translateY(+30%);
-            transform: translateY(+30%);
+    -ms-transform: translateY(+30%);
+    transform: translateY(+30%);
   }
 
   .popular-tools .tools-item2.element-animation.element-show {
     opacity: 1;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
     transition: opacity .3s ease, -webkit-transform .3s ease;
     -o-transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
     -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
   }
 
   .popular-tools .tools-item3.element-animation {
     opacity: 0;
     -webkit-transform: translateY(+30%);
-        -ms-transform: translateY(+30%);
-            transform: translateY(+30%);
+    -ms-transform: translateY(+30%);
+    transform: translateY(+30%);
   }
 
   .popular-tools .tools-item3.element-animation.element-show {
     opacity: 1;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
     transition: opacity .3s ease, -webkit-transform .3s ease;
     -o-transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
     -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
   }
 
   .popular-tools .tools-item4.element-animation {
     opacity: 0;
     -webkit-transform: translateY(+30%);
-        -ms-transform: translateY(+30%);
-            transform: translateY(+30%);
+    -ms-transform: translateY(+30%);
+    transform: translateY(+30%);
   }
 
   .popular-tools .tools-item4.element-animation.element-show {
     opacity: 1;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
     transition: opacity .3s ease, -webkit-transform .3s ease;
     -o-transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
     -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
   }
 
   .popular-tools .tools-item5.element-animation {
     opacity: 0;
     -webkit-transform: translateY(+30%);
-        -ms-transform: translateY(+30%);
-            transform: translateY(+30%);
+    -ms-transform: translateY(+30%);
+    transform: translateY(+30%);
   }
 
   .popular-tools .tools-item5.element-animation.element-show {
     opacity: 1;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
     transition: opacity .3s ease, -webkit-transform .3s ease;
     -o-transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
     -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
   }
 
   .popular-tools .tools-item6.element-animation {
     opacity: 0;
     -webkit-transform: translateY(+30%);
-        -ms-transform: translateY(+30%);
-            transform: translateY(+30%);
+    -ms-transform: translateY(+30%);
+    transform: translateY(+30%);
   }
 
   .popular-tools .tools-item6.element-animation.element-show {
     opacity: 1;
     -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
     -webkit-transition: opacity .3s ease, -webkit-transform .3s ease;
     transition: opacity .3s ease, -webkit-transform .3s ease;
     -o-transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease;
     transition: opacity .3s ease, transform .3s ease, -webkit-transform .3s ease;
     -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
+    -o-transition-delay: .3s;
+    transition-delay: .3s;
   }
 
   .brands {
@@ -1878,24 +1932,27 @@ h6 {
 
   .newcomer-tools__list .tools-item1.element-animation.element-show {
     -webkit-transition-delay: .5s;
-           -o-transition-delay: .5s;
-              transition-delay: .5s;
-    }
-    .newcomer-tools__list .tools-item2.element-animation.element-show {
+    -o-transition-delay: .5s;
+    transition-delay: .5s;
+  }
+
+  .newcomer-tools__list .tools-item2.element-animation.element-show {
     -webkit-transition-delay: .5s;
-           -o-transition-delay: .5s;
-              transition-delay: .5s;
-    }
-    .newcomer-tools__list .tools-item3.element-animation.element-show {
+    -o-transition-delay: .5s;
+    transition-delay: .5s;
+  }
+
+  .newcomer-tools__list .tools-item3.element-animation.element-show {
     -webkit-transition-delay: .5s;
-           -o-transition-delay: .5s;
-              transition-delay: .5s;
-    }
-    .newcomer-tools__list .tools-item4.element-animation.element-show {
+    -o-transition-delay: .5s;
+    transition-delay: .5s;
+  }
+
+  .newcomer-tools__list .tools-item4.element-animation.element-show {
     -webkit-transition-delay: .5s;
-           -o-transition-delay: .5s;
-              transition-delay: .5s;
-    }
+    -o-transition-delay: .5s;
+    transition-delay: .5s;
+  }
 
   .swiper-page {
     padding: 0 0 5rem 0;
@@ -1977,19 +2034,19 @@ h6 {
   }
 
   .swiper-slide__media .person-bg {
-    left: 1.5rem;
-    height: 36rem;
+    left: 3rem;
+    height: 34rem;
   }
 
   .swiper-slide__media .person {
-    top: 6rem;
-    left: 6rem;
-    height: 40rem;
+    top: 7rem;
+    left: 5.5rem;
+    height: 38rem;
   }
 
   .swiper-slide .card-media {
     left: 7.5rem;
-    bottom: 4.5rem;
+    bottom: 4rem;
   }
 
   .swiper-slide__content img {
